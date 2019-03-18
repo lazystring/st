@@ -63,7 +63,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "rxvt-unicode-256color";
 
 /*
  * spaces per tab
@@ -125,7 +125,7 @@ static unsigned int defaultrcs = 0;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
